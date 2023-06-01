@@ -65,7 +65,9 @@ main {
     background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
 }
 
-
+.like {
+    padding: 20px;
+}
 
 .rectangulo {
     position: absolute;
