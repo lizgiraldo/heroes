@@ -1,79 +1,163 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Marvel:wght@700&family=Roboto:wght@300;400;500&display=swap");
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .descuento {
-  background-color: #1CD1B0;
-  position: absolute;
-  width: 100%;
-  height: 38px;
-  padding-left: 28px;
-  padding-top: 10px;
-  font-size: 15px;
-font-weight: 400;
-  
+    background-color: #1CD1B0;
+    position: absolute;
+    width: 100%;
+    height: 38px;
+    padding-left: 28px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+
 }
 
 
-.heroes{
-    background-color:#00669F ;
+.heroes {
+    background-color: #00669F;
     position: absolute;
     width: 100%;
     height: 101px;
     left: 0px;
-    top:38px;
+    top: 38px;
     padding-top: 28px;
     padding-left: 28px;
     font-weight: 400;
 }
 
-main{
+main {
     position: absolute;
+    
 }
 
-.batman{
-   position: absolute;
-   width: 300px;
-   height: 193px;
-   left: 32px;
-   top:293px;
-   background-image: url(/heroes/img/849bfede3a5193c34ab8a00379e64fa2\ 1.png); 
+.batman {
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 275px;
+    background-image: url(/img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
 }
 
-.rectangulo{
+
+.harley2 {
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 352px;
+    top: 275px;
+    background-image: url(/img/849bfede3a5193c34ab8a00379e64fa2\ 1\ \(1\).png);
+}
+
+.batman2 {
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 677px;
+    top: 275px;
+    background-image: url(/img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+}
+
+
+
+.rectangulo {
     position: absolute;
     width: 300px;
     height: 336px;
     left: 1px;
-    top:196px;
+    top: 196px;
     background-color: #F3F3F3;
 }
 
-.perfil-batman{
+.rectanguloHarley {
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 1px;
+    top: 196px;
+    background-color: #F3F3F3;
+}
+
+.perfil-batman {
     position: absolute;
     width: 120px;
     height: 118px;
     left: 85px;
-    top:140px;
+    top: 140px;
     z-index: 10;
-    
+    border-radius: 100px;
 }
 
-.rectangulo h2{
+.perfil-harley {
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 85px;
+    top: 140px;
+    z-index: 10;
+    border-radius: 100px;
+}
+
+.rectangulo h2 {
     padding-left: 82px;
-    padding-top:82px;
+    padding-top: 82px;
     font-size: 30px;
     font-weight: 400;
 }
 
-.soyP{
+.rectanguloHarley h2 {
+    padding-left: 65px;
+    padding-top: 82px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.soyP {
     width: 267px;
     height: 113px;
     padding-top: 12px;
     padding-left: 16px;
+}
+
+.soyP2 {
+    width: 285px;
+    height: 113px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.boton-ver {
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    left: 80px;
+    top: 465px;
+    background-color: #00669F;
+    color: #ffffff;
+    border: 1px solid #00669F;
+}
+
+footer {
+    background-color: #00669F;
+    position: absolute;
+    width: 100%;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    
+}
+
+.footer-derechos{
+    font-size:16px ;
+    color: #ffffff;
+    font-weight: 400;
+    padding-top:18px ;
+    padding-left: 25px;
 }
