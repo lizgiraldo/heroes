@@ -22,7 +22,7 @@
 
 .heroes {
     background-color: #00669F;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 101px;
     left: 0px;
@@ -55,10 +55,12 @@
 }
 
 .contenedorFinal{
+    height:600px ;
     justify-content: space-around;
     display: flex;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    align-content: center;
+    /* margin-top: 150px; */
+    /* margin-bottom: 150px; */
 }
 
 .harley2 {
