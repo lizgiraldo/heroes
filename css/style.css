@@ -9,7 +9,7 @@
 
 .descuento {
     background-color: #1CD1B0;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 38px;
     padding-left: 28px;
@@ -32,37 +32,68 @@
     font-weight: 400;
 }
 
-main {
-    position: absolute;
-    
-}
+
+
 
 .batman {
     position: absolute;
     width: 300px;
     height: 193px;
-    left: 32px;
-    top: 275px;
+    /* left: 32px;
+    top: 275px; */
     background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
 }
 
+.contenedorBatman{
+    
+    flex-direction: column;
+    width: 300px;
+    height: 529px;
+    justify-content: space-evenly;
+    
+    
+}
+
+.contenedorFinal{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
 
 .harley2 {
     position: absolute;
     width: 300px;
     height: 193px;
-    left: 352px;
-    top: 275px;
+    /* left: 352px;
+    top: 275px; */
     background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1\ \(1\).png);
 }
+
+.contenedorHarley{
+    
+    flex-direction: column;
+    width: 300px;
+    height: 529px;
+    justify-content: space-evenly;  
+}
+
 
 .batman2 {
     position: absolute;
     width: 300px;
     height: 193px;
-    left: 677px;
-    top: 275px;
+    /* left: 677px;
+    top: 275px; */
     background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+}
+
+.contenedorBatman2{
+    
+    flex-direction: column;
+    width: 300px;
+    height: 529px;
+    justify-content: space-evenly;     
 }
 
 .like {
@@ -162,4 +193,12 @@ footer {
     font-weight: 400;
     padding-top:18px ;
     padding-left: 25px;
+}
+
+@media (min-width:480px) {
+
+   .contenedorFinal{
+    flex-wrap: wrap;
+   }
+    
 }
