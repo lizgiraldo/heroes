@@ -24,50 +24,84 @@
     </header>
     <main>
       <div class="contenedor">
-          <div class="titulo">
-            <h1>Añadí tu super!</h1>
-            <p>Agregá tu personaje favorito completando las opciones</p>
-          </div>
-        
-        <div>
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" />
-
-          <label for="especie">Especie</label>
-          <select name="especie" id="especie">
-            <option value="murcielago">Murcielago</option>
-            <option value="kriptoniano">Kriptoniano</option>
-            <option value="millonario">Millonario</option>
-            <option value="superFuerza">Super Fuerza</option>
-            <option value="amazonas">Amazonas</option>
-          </select>
+        <div class="titulo">
+          <h1>Añadí tu super!</h1>
+          <p>Agregá tu personaje favorito completando las opciones</p>
         </div>
-        <div>
-          <label for="fecha">Fecha</label>
-          <input type="date" name="fecha" id="fecha" />
-
-          <label for="agregarF">Agregar Foto</label>
-          <input type="file" name="file" id="file" />
+        <div class="contenedorFinal">
+            <div class="primero">         
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" />
+                <label for="fecha">Fecha</label>
+                <input type="date" name="fecha" id="fecha" />
+                <textarea name="descripcion" cols="30" rows="10">Descripcion</textarea>
+              </div>
+    
+              <div class="primero">
+                <label for="especie">Especie</label>
+                <select name="especie" id="especie">
+                  <option value="murcielago">Murcielago</option>
+                  <option value="kriptoniano">Kriptoniano</option>
+                  <option value="millonario">Millonario</option>
+                  <option value="superFuerza">Super Fuerza</option>
+                  <option value="amazonas">Amazonas</option>
+                </select>
+                <label for="agregarF">Agregar Foto</label>
+                <input type="file" name="file" id="file" />
+                <div class="poderes">
+                    <label for="poderes">Poderes</label>
+                    <input type="checkbox" value="volar" id="volar"/><span>Volar</span>
+                    <input type="checkbox" value="superinteligencia" id="superinteligencia"/><span>Superinteligencia</span>
+                    <input type="checkbox" value="vistaX" id="vistaX" /><span>Vista de rayos laser</span>
+                    <input type="checkbox" value="billeteraGorda" id="billeteraGorda"/><span>Billetera Gorda</span>
+                </div>
+               <div class="tipoPersonaje">
+                <p>__________________________</p>
+                  <label for="poderes">Tipo de Personaje</label>
+                  <input type="radio" name="tPersonaje" value="heroeHeroina" /><span
+                    >Héroe / Heroina</span
+                  >
+                  <input type="radio" name="tPersonaje" value="villanoVillana" /><span
+                    >Villano / Villana</span>
+               </div>
+              </div>
         </div>
-        <section>
-            <textarea name="descripcion" cols="30" rows="10">Descripcion</textarea>
-            <article>
-                <label for="poderes">Poderes</label>
-                <input type="checkbox" value="volar" id="volar"> <span>Volar</span> 
-                <input type="checkbox" value="superinteligencia" id="superinteligencia"><span>Superinteligencia</span> 
-                <input type="checkbox" value="vistaX" id="vistaX"><span>Vista de rayos laser</span> 
-                <input type="checkbox" value="billeteraGorda" id="billeteraGorda"><span>Billetera Gorda</span> 
-            </article>
-            <p>___________________</p>
-            <article>
-                <label for="poderes">Tipo de Personaje</label>
-                <input type="radio" name="tPersonaje" value="heroeHeroina"><span>Héroe / Heroina</span> 
-                <input type="radio" name="tPersonaje" value="villanoVillana"><span>Villano / Villana</span> 
-            </article>
+       
+      
+
+          
+          <!-- <article>
+            <label for="poderes">Poderes</label>
+            <input type="checkbox" value="volar" id="volar" />
+            <span>Volar</span>
+            <input
+              type="checkbox"
+              value="superinteligencia"
+              id="superinteligencia"
+            /><span>Superinteligencia</span>
+            <input type="checkbox" value="vistaX" id="vistaX" /><span
+              >Vista de rayos laser</span
+            >
+            <input
+              type="checkbox"
+              value="billeteraGorda"
+              id="billeteraGorda"
+            /><span>Billetera Gorda</span>
+          </article>
+          <p>___________________</p>
+          <article>
+            <label for="poderes">Tipo de Personaje</label>
+            <input type="radio" name="tPersonaje" value="heroeHeroina" /><span
+              >Héroe / Heroina</span
+            >
+            <input type="radio" name="tPersonaje" value="villanoVillana" /><span
+              >Villano / Villana</span
+            >
+          </article>
         </section>
 
         <button>Añadir</button>
-      </div>
+      </div> -->
     </main>
     <footer>
       <p>Todos los derechos reservados a FRONT END I</p>
