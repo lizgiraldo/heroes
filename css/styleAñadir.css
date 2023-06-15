@@ -19,14 +19,14 @@
 
 }
 
-.abajo{
+.abajo {
     display: flex;
-    background-color: #00669F ;
+    background-color: #00669F;
     color: white;
     align-items: center;
 }
 
-.navegador{
+.navegador {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
@@ -35,86 +35,177 @@
     background-color: #001D2D;
 }
 
-.lista{
+.lista {
     display: flex;
     align-items: center;
     list-style: none;
     margin-right: 25px;
 }
 
-.lista li{
+.lista li {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.sinStyle{
-    text-decoration: none;   
-    color: white;  
+.sinStyle {
+    text-decoration: none;
+    color: white;
 }
 
-main{
+main {
     display: flex;
     justify-content: space-around;
 }
 
-.contenedor{
- display: flex;
- flex-direction: column;
-  width: 954px; 
-  height: 832px; 
-  background-color: #00669F;
-  margin: 40px;
-  border-radius: 40px;
-  color: white;
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 954px;
+    height: 832px;
+    background-color: #00669F;
+    margin: 40px;
+    border-radius: 40px;
+    color: white;
+    align-items: center;
 }
 
-.contenedorFinal{
+.contenedorFinal {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 16px;
 }
 
-.poderes{
+.poderes {
     display: flex;
     flex-direction: column;
 }
 
-button{
+button {
     background-color: #1CD1B0;
     width: 466px;
     height: 87px;
     border-radius: 15px;
-    font-size:40px;
+    font-size: 40px;
     font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     border-color: #1CD1B0;
-}
-
-.titulo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.primero{
-    display: flex;
-    flex-direction: column;
-    width: 360px;
-    justify-content: space-evenly;
     
 }
 
-.primeroNombre{
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.primero {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 38rem;
+    justify-content: space-between;
+    
+
+}
+
+.segundo {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 38rem;
+    justify-content: flex-start;
+
+}
+
+.primeroNombre {
     display: flex;
     flex-direction: column;
 }
 
-.primeroEspecie{
+.primeroEspecie {
     display: flex;
     flex-direction: column;
 }
 
-footer{
-  background-color: #00669F; 
-  color: white; 
-  height: 61px;
+input[type="text"] {
+    width: 343px;
+    height: 63px;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="date"] {
+    width: 343px;
+    height: 63px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 52px;  
+}
+
+select{
+    width:342px ;
+    height:63px ;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.especie{
+   margin-bottom: 29px; 
+}
+
+.selectDiv{
+    margin-bottom: 40px;
+}
+
+.agregarF{
+    margin-bottom: 50px;
+}
+
+input[type="checkbox"]{
+  width: 24px;  
+  height: 20px; 
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+
+textarea{
+    width: 343px; 
+    height: 307px;  
+    border-radius: 10px;
+    border: none; 
+    padding: 10px;
+
+}
+
+.poderes{
+    width: 343px; 
+    height: 307px; 
+    justify-content: space-around; 
+   
+
+}
+
+label{
+    font-size: 20px;
+}
+
+::placeholder{
+    font-size: 20px;
+}
+
+
+
+footer {
+    background-color: #00669F;
+    color: white;
+    height: 61px;
 }

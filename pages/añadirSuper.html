@@ -34,20 +34,24 @@
                 <input type="text" name="nombre" id="nombre" />
                 <label for="fecha">Fecha</label>
                 <input type="date" name="fecha" id="fecha" />
-                <textarea name="descripcion" cols="30" rows="10">Descripcion</textarea>
+                <textarea name="descripcion" cols="30" rows="10" placeholder="Descripcion"></textarea>
               </div>
     
-              <div class="primero">
-                <label for="especie">Especie</label>
-                <select name="especie" id="especie">
-                  <option value="murcielago">Murcielago</option>
-                  <option value="kriptoniano">Kriptoniano</option>
-                  <option value="millonario">Millonario</option>
-                  <option value="superFuerza">Super Fuerza</option>
-                  <option value="amazonas">Amazonas</option>
-                </select>
-                <label for="agregarF">Agregar Foto</label>
-                <input type="file" name="file" id="file" />
+              <div class="segundo">
+                <label  class="especie" for="especie">Especie</label>
+                <div class="selectDiv">
+                  <select name="especie" id="especie">
+                    <option disabled selected value="">Especie</option>
+                    <option value="murcielago">Murcielago</option>
+                    <option value="kriptoniano">Kriptoniano</option>
+                    <option value="millonario">Millonario</option>
+                    <option value="superFuerza">Super Fuerza</option>
+                    <option value="amazonas">Amazonas</option>
+                  </select>
+   
+                </div>
+                <label  class="agregarF" for="agregarF">Agregar Foto</label>
+                    <input type="file" name="file" id="file" />
                 <div class="poderes">
                     <label for="poderes">Poderes</label>
                     <div>
@@ -66,24 +70,21 @@
                     <input type="checkbox" value="billeteraGorda" id="billeteraGorda"/>
                     <span>Billetera Gorda</span>
                    </div>
-
-                   
+                   <p>__________________________</p>
+                   <label for="poderes">Tipo de Personaje</label>
+                   <div>
+                     <input type="radio" name="tPersonaje" value="heroeHeroina" />
+                     <span>Héroe / Heroina</span>
+                   </div>
+                   <div>
+                     <input type="radio" name="tPersonaje" value="villanoVillana" />
+                     <span>Villano / Villana</span>
+                   </div>                  
                 </div>
-               <div class="tipoPersonaje">
-                <p>__________________________</p>
-                  <label for="poderes">Tipo de Personaje</label>
-                  <div>
-                    <input type="radio" name="tPersonaje" value="heroeHeroina" />
-                    <span>Héroe / Heroina</span>
-                  </div>
-                  <div>
-                    <input type="radio" name="tPersonaje" value="villanoVillana" />
-                    <span>Villano / Villana</span>
-                  </div>
-                  
-               </div>
               </div>
+              
         </div>
+        <button>Añadir</button>
        
       
 
@@ -118,7 +119,7 @@
           </article>
         </section>
 
-        <button>Añadir</button>
+        
       </div> -->
     </main>
     <footer>
