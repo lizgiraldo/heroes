@@ -7,6 +7,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+
 .descuento {
     background-color: #1CD1B0;
     width: 100%;
@@ -49,4 +50,38 @@
 .sinStyle{
     text-decoration: none;   
     color: white;  
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor{
+ display: flex;
+ flex-direction: column;
+  width: 954px; 
+  height: 832px; 
+  background-color: #00669F;
+  margin: 40px;
+  border-radius: 40px;
+  color: white;
+}
+
+button{
+    background-color: #1CD1B0;
+    width: 466px;
+    height: 87px;
+    border-radius: 15px;
+    font-size:40px;
+    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    border-color: #1CD1B0;
+}
+
+
+footer{
+  background-color: #00669F; 
+  color: white; 
+  height: 61px;
 }

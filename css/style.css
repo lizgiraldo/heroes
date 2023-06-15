@@ -246,6 +246,14 @@ footer {
     height: 25px;
 }
 
+.añadir{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+
+
 @media (min-width:480px) {
 
    .contenedorFinal{
@@ -275,5 +283,7 @@ footer {
      position:relative;
      margin:0 ;
    }
+
+   
     
 }

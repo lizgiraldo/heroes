@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styleAñadir.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styleAñadir.css" />
     <title>Añadir tu super!</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <h3 class="descuento">20% de descuento en todos los productos!</h3>
-    <div class="abajo">
-        <img src="../img/Logo.png" alt="Logo tienda">
+      <h3 class="descuento">20% de descuento en todos los productos!</h3>
+      <div class="abajo">
+        <img src="../img/Logo.png" alt="Logo tienda" />
         <h2>Nombre Tienda</h2>
-    </div>
-    <nav class="navegador">
+      </div>
+      <nav class="navegador">
         <ul class="lista">
-            <li><a class="sinStyle"  href="">Contacto</a> </li>
-            <li><a class="sinStyle" href="">Registrarme</a></li>
-            <li><a class="sinStyle" href="">Ingresar</a></li>
+          <li><a class="sinStyle" href="">Contacto</a></li>
+          <li><a class="sinStyle" href="">Registrarme</a></li>
+          <li><a class="sinStyle" href="">Ingresar</a></li>
         </ul>
-    </nav>
+      </nav>
     </header>
     <main>
+      <div class="contenedor">
+          <div class="titulo">
+            <h1>Añadí tu super!</h1>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+          </div>
+        
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
 
+          <label for="especie">Especie</label>
+          <select name="especie" id="especie">
+            <option value="murcielago">Murcielago</option>
+            <option value="kriptoniano">Kriptoniano</option>
+            <option value="millonario">Millonario</option>
+            <option value="superFuerza">Super Fuerza</option>
+            <option value="amazonas">Amazonas</option>
+          </select>
+        </div>
+        <div>
+          <label for="fecha">Fecha</label>
+          <input type="date" name="fecha" id="fecha" />
+
+          <label for="agregarF">Agregar Foto</label>
+          <input type="file" name="file" id="file" />
+        </div>
+        <section>
+            <textarea name="descripcion" cols="30" rows="10">Descripcion</textarea>
+            <article>
+                <label for="poderes">Poderes</label>
+                <input type="checkbox" value="volar" id="volar"> <span>Volar</span> 
+                <input type="checkbox" value="superinteligencia" id="superinteligencia"><span>Superinteligencia</span> 
+                <input type="checkbox" value="vistaX" id="vistaX"><span>Vista de rayos laser</span> 
+                <input type="checkbox" value="billeteraGorda" id="billeteraGorda"><span>Billetera Gorda</span> 
+            </article>
+            <p>___________________</p>
+            <article>
+                <label for="poderes">Tipo de Personaje</label>
+                <input type="radio" name="tPersonaje" value="heroeHeroina"><span>Héroe / Heroina</span> 
+                <input type="radio" name="tPersonaje" value="villanoVillana"><span>Villano / Villana</span> 
+            </article>
+        </section>
+
+        <button>Añadir</button>
+      </div>
     </main>
     <footer>
-
+      <p>Todos los derechos reservados a FRONT END I</p>
     </footer>
-</body>
+  </body>
 </html>
