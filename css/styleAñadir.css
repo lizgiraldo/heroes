@@ -88,8 +88,13 @@ button {
     font-size: 40px;
     font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
-    border-color: #1CD1B0;
+    border: none;
     
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(252, 185, 0);
 }
 
 .titulo {
@@ -221,6 +226,9 @@ label{
 
 
 footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #00669F;
     color: white;
     height: 61px;
